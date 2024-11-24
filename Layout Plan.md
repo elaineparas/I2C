@@ -3,6 +3,7 @@
 Title: Nature FunTraventure
 
 Sumlang Lake | Nature FunTraventure
+
 Objective: 
 The objective of this project is to contribute to the development of tourism in Camalig, Albay. Focusing on the progressive development of tourism in the Philippines, this project aims to make Sumlang Lake a known place locally and overseas. This is to boost tourism marketing in Camalig, Albay. Through this, the businesses in the place would bloom especially the locals, this would be of great help to their livelihood.
 
