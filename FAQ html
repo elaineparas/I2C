@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Map</h1>
+    </header>
+    <main>
+        <section class="vicinitymap-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1479.5350458622222!2d123.67092985189132!3d13.179547622103911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a106f25e94cef9%3A0x2333d228fb8e39c6!2sSumlang%20Lake!5e1!3m2!1sen!2sph!4v1732934890367!5m2!1sen!2sph"
+                frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <h2>How to get here?</h2>
+            <h3>By Car</h3>
+            <h4>From Legazpi City (Approx. 20-30 minutes drive)</h4>
+            <ol>
+                <li>Head south from the city center towards Barangay Sumlang in Camalig, Albay.</li>
+                <li>Take the Diversion Road (or the main highway) heading towards Camalig.</li>
+                <li>Continue driving and follow signs towards Sumlang Lake. The lake is located near Socorro's The Venue
+                    and can be accessed from the parking area at the back.</li>
+                <li>You may also use a navigation app (like Google Maps or Waze) to get real-time directions, as the
+                    route is well-marked.</li>
+            </ol>
+            <h4>Parking:</h4>
+            <p>Sumlang Lake has parking spaces available near the entrance, and parking is usually free or at a minimal
+                cost.</p>
+            <hr>
+            <h3>By Motorcycle</h3>
+            <h4>From Legazpi City (Approx. 20-30 minutes ride)</h4>
+            <ol>
+                <li>Start by heading south towards Barangay Sumlang, Camalig.</li>
+                <li>Take the Diversion Road and continue along the main highway towards Sumlang Lake.</li>
+                <li>As you approach the lake, follow signs or ask locals for directions to the designated parking area
+                    near Socorro's The Venue.</li>
+                <li>Motorcycles can easily park near the lake, where riders can leave their bikes and explore the area.
+                </li>
+            </ol>
+            <hr>
+            <h3>By Commute</h3>
+            <h4>From Legazpi City (Approx. 30-45 minutes travel time)</h4>
+            <ol>
+                <li>Go to the Legazpi City Grand Terminal, where you’ll find jeepneys and buses bound for Camalig.</li>
+                <li>Take a jeepney or bus that passes through Camalig, preferably those going to Sumlang or Tabaco.</li>
+                <li>Get off at Sumlang Crossing or near the Barangay Hall in Camalig (ask the driver or conductor to
+                    notify you when to get off).</li>
+                <li>From there, take a tricycle or a short walk (about 10-15 minutes) to Sumlang Lake. Alternatively,
+                    some jeepneys may drop passengers closer to the lake entrance, depending on the route.</li>
+            </ol>
+            <hr>
+            <h3>Tips for Travelers</h3>
+            <ul>
+                <li><strong>Car and Motorcycle:</strong> It’s recommended to use a GPS navigation app (Google Maps,
+                    Waze) to ensure you take the best route to the lake.</li>
+                <li><strong>Commute:</strong> Public transportation options like jeepneys and buses can be found
+                    throughout Legazpi City, and they are affordable. However, be mindful of the schedule and crowd
+                    during peak hours or holidays.</li>
+                <li><strong>Weather:</strong> Always check the weather before traveling, as certain roads or routes may
+                    be less accessible during heavy rains, especially during the rainy season.</li>
+            </ul>
+            <p>These directions will help ensure a smooth and enjoyable trip to Sumlang Lake, whether you’re driving,
+                riding a motorcycle, or taking public transportation!</p>
+        </section>
+        <header>
+            <h1>FAQ</h1>
+        </header>
+        <section class="faq-container">
+            <h3>1. Is Sumlang Lake a pet-friendly place?</h3>
+            <p>Yes, Sumlang Lake is a pet-friendly destination! Visitors are welcome to bring their pets, but we kindly
+                ask that
+                they remain on a leash and that owners clean up after them. The peaceful environment and beautiful
+                surroundings
+                make it a great spot for a walk with your furry friends!</p>
+            <h3>2. What should I bring for my visit to Sumlang Lake?</h3>
+            <p>We recommend bringing sunscreen, comfortable clothing, a hat, and camera gear for taking photos of the
+                stunning
+                views. If you plan to fish, don’t forget to bring your fishing gear or rent equipment on-site. It’s also
+                a good
+                idea to bring some snacks and water, as there are picnic areas available.</p>
+            <h3>3. What are the best times to visit Sumlang Lake?</h3>
+            <p>The best times to visit Sumlang Lake are during the dry months, typically from December to May, when the
+                weather is sunny and ideal for outdoor activities. However, the lake's beauty is captivating year-round,
+                so you can enjoy it at any time!</p>
+            <h3>4. Are there guided tours available at Sumlang Lake?</h3>
+            <p>Yes, guided tours are available for visitors who wish to learn more about the lake’s history, ecosystem,
+                and surrounding area. Local guides offer informative tours, providing insights into the cultural
+                significance of the lake and its natural beauty.</p>
+            <h3>5. Is Sumlang Lake open year-round?</h3>
+            <p>Yes, Sumlang Lake is open to visitors year-round. However, it's always a good idea to check the weather
+                and local conditions before planning your visit, especially during the rainy season, as certain
+                activities may be affected. Please note that during peak holidays, such as Holy Week, the establishment
+                may close earlier than usual. We recommend checking the schedule in advance to plan your visit
+                accordingly.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;Copyright © 2024 Nature FunTraventure. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
