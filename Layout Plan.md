@@ -75,3 +75,15 @@ There was a decline in number of tourists visiting the lake due to the effect of
 2023 - Present
 The emergence of businesses in the area flourished as more tourists began to visit, drawn by the breathtaking beauty of Mayon Volcano and the serene lake that lies in its shadow. This influx of visitors created a vibrant local economy, with new establishments sprouting up to cater to the growing demand. Local artisans also saw an opportunity to showcase their crafts, selling handmade goods that reflected the region's rich cultural heritage. As word spread about the stunning views and unique experiences available, the area's reputation as a must-visit destination grew, leading to a steady increase in both domestic and international tourists.
 
+---font----
+
+Logo font
+
+- Bodoni Std Medium Extra Wide
+
+body(p)
+-roboto
+-sans serif
+
+Header(SL)
+-'BARABARA FINAL Regular'
