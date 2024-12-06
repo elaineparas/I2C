@@ -50,13 +50,29 @@
     <!-- Section 1 -->
     <h1>Socorro’s The Venue</h1>
 
- <div class="slider">
-      <div class="slide" style="background-image: url('Photos/365450991_713196864153776_8427043726075931265_n.jpg');"></div>
-      <div class="slide" style="background-image: url('Photos/277745476_505517161229350_9034318396752839951_n.jpg');"></div>
-      <div class="slide" style="background-image: url('https://via.placeholder.com/600x400?text=Image+3');"></div>
-      <div class="slide" style="background-image: url('https://via.placeholder.com/600x400?text=Image+4');"></div>
+ <div class="collage-container">
+    <div class="collage-item">
+      <img src="Photos/365450991_713196864153776_8427043726075931265_n.jpg" class="clickable-image">
+    </div>
+    <div class="collage-item">
+      <img src = "Photos/277740721_505516964562703_7632957466963568814_n.jpg" alt="Image 2" class="clickable-image">
+    </div>
+    <div class="collage-item">
+      <img src="https://via.placeholder.com/300x200?text=Image+3" alt="Image 3" class="clickable-image">
+    </div>
+    <div class="collage-item">
+      <img src="https://via.placeholder.com/300x200?text=Image+4" alt="Image 4" class="clickable-image">
     </div>
   </div>
+
+  <!-- Modal for displaying the clicked image -->
+  <div id="modal" class="modal">
+    <span class="close" id="close">&times;</span>
+    <img class="modal-content" id="modal-image" src="">
+    <div id="caption"></div>
+  </div>
+
+  <script src="script.js"></script>
 
   <script src="script.js"></script>
 	  
