@@ -87,6 +87,13 @@ body {
   background: #f0f0f0;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0;
+}
+
 .collage-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns */
@@ -100,7 +107,7 @@ body {
   position: relative;
   overflow: hidden; /* Hide any overflow from images */
   border-radius: 8px;
-  padding-top: 75%; /* 4:3 ratio (height is 75% of the width) */
+  padding-top: 133.33%; /* 3:4 ratio (height is 133.33% of the width) */
   background-color: #ddd; /* Background color if image doesn't load */
 }
 
