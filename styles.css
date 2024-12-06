@@ -82,8 +82,9 @@ h1, h2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;
-  max-width: 1200px;
-  margin: 0 auto;
+  justify-content: center; /* Centers the grid horizontally */
+  align-items: center; /* Centers the grid vertically */
+  margin: 0 auto; /* Ensures grid container stays centered */
   padding: 20px 0;
 }
 
@@ -110,6 +111,12 @@ h1, h2 {
 @media (max-width: 768px) {
   .image-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .image-grid {
+    grid-template-columns: 1fr;
   }
 }
 
