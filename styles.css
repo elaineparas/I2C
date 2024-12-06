@@ -96,8 +96,8 @@ body {
 
 .collage-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Two columns */
-  grid-template-rows:repeat(ceil(4 / 3), 1fr);
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-template-rows: 1fr 1fr; /* Two rows */
   gap: 10px; /* Reduced gap between images */
   padding: 10px;
   box-sizing: border-box;
