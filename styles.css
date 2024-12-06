@@ -54,9 +54,10 @@ h1, h2 {
 }
 
 .image-container img {
-  width: 400px;
-  height: 200px;
-  border-radius: 500px;
+   width: 300px;  /* Increase the width for larger images */
+  height: 200px; /* Adjust the height proportionally */
+  object-fit: cover; /* Ensures the image maintains its aspect ratio and fills the container */
+  border-radius: 8px;
 }
 
 body {
