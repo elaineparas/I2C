@@ -117,7 +117,7 @@ body {
   border-radius: 8px;
   padding-top: 133.33%; /* 3:4 ratio (height is 133.33% of the width) */
   background-color: #ddd; /* Background color if image doesn't load */
-  width: 300px; /* Set a fixed width for each image item */
+  width: 30px; /* Set a fixed width for each image item */
   height: auto; /* Height adjusts automatically due to padding-top */
 }
 
