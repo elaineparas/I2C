@@ -126,3 +126,83 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto; /* Enable page-wide scrolling */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; /* Ensure wrapper stretches to full height */
+  width: 100%; /* Full width */
+}
+
+section {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0; /* Remove padding from sections */
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Optional: Add smooth scrolling to the page */
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; /* Ensure wrapper stretches to full height */
+  width: 100%; /* Full width */
+}
+
+/* Prevent internal scrollbars in sections */
+section {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0; /* Remove padding from sections */
+  overflow: hidden; /* Disable internal scrolling in sections */
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Optional: Add smooth scrolling to the page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure no extra margin or padding on body */
+body {
+  margin: 0;
+  padding: 0;
+}
