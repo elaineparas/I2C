@@ -111,14 +111,14 @@ body {
   background-color: #ddd; /* Background color if image doesn't load */
 }
 
-.collage-item {
-  position: relative;
-  overflow: hidden; /* Hide any overflow from images */
-  border-radius: 8px;
-  padding-top: 133.33%; /* 3:4 ratio (height is 133.33% of the width) */
-  background-color: #ddd; /* Background color if image doesn't load */
-  width: 30px; /* Set a fixed width for each image item */
-  height: auto; /* Height adjusts automatically due to padding-top */
+.collage-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure image fills the width of the container */
+  height: 100%; /* Ensure image fills the height of the container */
+  object-fit: cover; /* Maintain aspect ratio without distortion */
+  transition: transform 0.3s ease;
 }
 
 .collage-item img:hover {
